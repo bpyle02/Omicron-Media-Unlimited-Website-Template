@@ -3,9 +3,8 @@
 
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="styles.css">
-    <script src="js/main.js" defer></script>
     <script src="js/countdown.js" defer></script>
-    <script src="vide/vide-0.5.1/src/jquery.vide.js" defer></script>
+    <script src="./vide/Vide-0.5.1/src/jquery.vide.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
@@ -16,7 +15,15 @@
     <body>
 
         <div id="navbar">
-            
+            <ul class="navUL">
+                <img src="images/logo_inverted.png" class="navLogo">
+                <li><a href="index.html" class="menuItem">Home</a></li>
+                <li><a href="about.html" class="menuItem">About</a></li>
+                <li><a href="events.html" class="menuItem">Events</a></li>
+                <li><a href="projects.html" class="menuItem">Projects</a></li>
+                <li><a href="reviews.html" class="menuItem">Reviews</a></li>
+                <li><a href="contact.html" class="menuItem">Contact</a></li>
+            </ul>
         </div>
 
         <section>
@@ -45,7 +52,7 @@
          </section>
          
         <div class="video"
-            data-vide-bg="/video/video" data-vide-options="loop: true, muted: true, position: 50% 50%">
+            data-vide-bg="./video/video" data-vide-options="loop: true, muted: true, position: 50% 50%">
         </div>
 
 
