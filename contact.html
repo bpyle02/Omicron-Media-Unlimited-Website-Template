@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/main.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    
+    <head>
+        <title>Omicron Media Unlimited</title>
+    </head>
+
+    <body>
+
+        
+        <div id="navbar">
+            
+        </div>
+
+        <div class="info">
+            <h1>Contact Us</h1>
+            <h4>1234 North Avenue, Somewhere, US 12345</h4>
+            <h4>omicron@unlimited.com</h4>
+            <h4>Jacklin Jaric, Senior Media Specialist</h4>
+        </div>
+
+        <div class="wrapper">
+            <form onsubmit="return false">
+                <input type="text" placeholder="Enter your last name" id="lastName" />
+                <br><br>
+                <input type="text" placeholder="Enter your first name" id="firstName" />
+                <br><br>
+                <input type="email" placeholder="Enter your email" id="email" />
+                <br><br>
+                <span>Tell us your thoughts or book an appointment here:</span>
+                <br>
+                <textarea id="question" rows="4"></textarea>
+                <br><br>
+                <button onclick="sendContact();">Send contact</button>
+            </form>
+        </div>
+
+    </body>
+
+</html> 
